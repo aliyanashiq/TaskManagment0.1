@@ -1,0 +1,296 @@
+.Main-Reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    
+}
+
+.reg-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    height: 86vh;
+}
+.reg-container h1{
+    text-align: center;
+    position: relative;
+    top: -11px;
+}
+.Userinf{
+    display: flex;
+    gap: 20px;
+    height: 5rem;
+    width: 100%;
+}
+.Userinf .Input-feild input{
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.Userinf .Input-feild1 input{
+    
+    width: 120%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.Input-feild10{
+    position: relative;
+    left: -1.4rem;
+}
+.Userinf .Input-feild10 input{
+    width: 110%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.Userinter{
+    margin: 10px 0;
+}
+.Userinter .Input-feild input{
+    display: flex;
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.Usertec {
+    display: flex;
+    gap: 5rem;
+    
+}
+.Usertec .Input-feild01 input{
+    display: flex;
+    gap: 20px;
+    width: 144%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.Input-feild2{
+    position: relative;
+    left: -5rem;
+}
+.Usertec .Input-feild2 input{
+    display: flex;
+    gap: 20px;
+    width: 142%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+    
+    
+}
+.UserName{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0px;
+}
+.userresume input {
+    display: flex;
+    padding: 0 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.UserName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserName > div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.UserName > div:last-child {
+    margin-right: 0;
+}
+
+.UserName h1 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.UserName label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+.UserName .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: white;
+    height: 2rem;
+    width: 100%;
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+}
+/* ........................................................ */
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.login-box {
+    width: 440px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.register-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+.Login-massage {
+    padding-bottom: 10px;
+}
+
+.error-message {
+    color: white;
+    height: 2rem;
+    width: 100%;
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+}
+/* ....................................responsive............................. */
+@media (width:425px) {
+    .reg-container {
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }
+    .login-box {
+        width: 404px;
+    }
+    .Main-Reg{
+        padding: 0;
+    }
+    .Userinf .Input-feild1 input {
+        width: 105%;
+    }
+    .Input-feild10 {
+        position: relative;
+        left: 0.9rem;
+    }
+    .Userinf .Input-feild10 input {
+        width: 93%;
+    }
+    .Input-feild2 {
+        position: relative;
+        left: -1.4rem;
+    }
+    .Usertec .Input-feild01 input {
+        width: 120%;
+    }
+    .Usertec .Input-feild2 input {
+        width: 116%;
+    }
+    .submit-btn {
+    top: 0.5rem;
+    }
+}

@@ -1,0 +1,270 @@
+.pro-form {
+  width: 100%;
+  height: 100vh;
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.main-form {
+  height: 82vh;
+  width: 45%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+  left: 18rem;
+  top: 2rem;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.main-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+
+}
+
+/* From Uiverse.io by danilppzz */
+.main-form form .input {
+
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: none;
+  border-radius: 8px;
+  color: #000000;
+  padding: 14px 24px;
+  text-decoration: none;
+
+  font-size: 16px;
+  margin: 16px 0px;
+  cursor: pointer;
+
+}
+
+.input:hover {
+  border: 1px solid #fff;
+}
+
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+  
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: none;
+ 
+}
+
+.react-select-container {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.react-select__control {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.react-select__control--is-focused {
+  border-bottom-color: #007bff;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 19px 0px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* project.css */
+.project-table1 {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  background-color: #ffffff;
+  padding: 35px;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  margin: 20px 0;
+  overflow: scroll;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #63e6be;
+
+}
+
+.project-table tr:nth-child(even) {
+  background-color: #e6fcf5;
+}
+
+.project-table tr:hover {
+  background-color: #96f2d7;
+}
+
+.project-table .action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.project-table .action-buttons button {
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.project-table .action-buttons button:hover {
+  background-color: #0056b3;
+}
+
+td button {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 0px solid transparent;
+  background-color: rgba(100, 77, 237, 0.08);
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+.Khuch{
+  width: 50%;
+}
+
+.Td-logo {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 900;
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 1024px) {
+  .project-table1 {
+    padding: 35px 10px;
+  }
+  .Khuch{
+    width: 35%;
+  }
+  .project-table th,
+  .project-table td {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  .project-table .action-buttons button {
+    padding: 4px 8px;
+  }
+  .main-form {
+    height: 88vh;
+    width: 51%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 18rem;
+    top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-table1 {
+    padding: 15px;
+  }
+  .Khuch{
+    width: 25%;
+  }
+  .project-table th,
+  .project-table td {
+    padding: 4px;
+    font-size: 10px;
+
+  }
+  .main-form {
+    height: 88vh;
+    width: 67%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 6rem;
+    top: 1rem;
+}
+  .project-table .action-buttons button {
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 425px) {
+  .project-table1 {
+    padding: 10px;
+  }
+
+  .project-table th,
+  .project-table td {
+    padding: 2px;
+    font-size: 8px;
+  }
+  .main-form {
+    height: 88vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    left: 0rem;
+    top: 1rem;
+}
+  .project-table .action-buttons button {
+    padding: 2px 4px;
+  }
+
+  td button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .Td-logo {
+    font-size: 14px;
+  }
+}

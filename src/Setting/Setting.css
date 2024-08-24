@@ -1,0 +1,251 @@
+.Setting-Main {
+  height: 100vh;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.Setting-container {
+  padding: 20px;
+
+  height: 95vh;
+  width: 100%;
+  border-radius: 15px;
+  overflow: scroll;
+
+}
+
+.info-containr {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 2px rgb(189, 189, 189) solid;
+}
+
+.Text-information {
+  padding: 0 20px;
+}
+
+.info-containr .Text-information h1 {
+  font-family: "Gupter", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.Notification-bar {
+  height: auto;
+}
+
+.Logout-button {
+  padding: 0.3em 1em;
+  font-size: 12px;
+  text-transform: uppercase;
+  height: 2.8rem;
+  width: 100px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  right: -42rem;
+  top: 4px;
+}
+
+.Logout-button:hover {
+  background-color: #0ca678;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.Logout-button:active {
+  transform: translateY(-1px);
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+  left: -2.8rem;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-switch-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 2px #ccc;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle-switch-handle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-switch::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  right: -35px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaa;
+  text-shadow: 1px 1px #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-switch input[type="checkbox"]:checked+.toggle-switch-handle {
+  transform: translateX(45px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 0 3px #05c46b;
+}
+
+.toggle-switch input[type="checkbox"]:checked+.toggle-switch-background {
+  background-color: #05c46b;
+  box-shadow: inset 0 0 0 2px #04b360;
+}
+
+.toggle-switch input[type="checkbox"]:checked+.toggle-switch:before {
+  content: "On";
+  color: #05c46b;
+  right: -15px;
+}
+
+.toggle-switch input[type="checkbox"]:checked+.toggle-switch-background .toggle-switch-handle {
+  transform: translateX(27px);
+}
+
+.Notification-bar {
+  border-bottom: 2px rgb(107, 107, 107) solid;
+  padding: 10px 0;
+}
+
+.Notification-end {
+  border-bottom: 2px rgb(107, 107, 107) solid;
+  padding: 10px 0;
+}
+
+.Notification-bar h1 {
+  font-size: 35px;
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noti1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.noti-text h1 {
+  font-size: 22px;
+  font-family: "Gupter", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (width:1024px) {
+  .Logout-button {
+    right: -30rem;
+  }
+}
+
+@media (width:768px) {
+  .Logout-button {
+    right: -17rem;
+  }
+
+  .toggle-switch {
+    left: 0.2rem;
+  }
+}
+
+@media (width:425px) {
+  .noti-text h1 {
+    font-size: 20px;
+    font-family: "Gupter", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .toggle-switch-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 80%;
+  }
+
+  .toggle-switch-handle {
+    position: absolute;
+    top: 3.1px;
+    left: 5px;
+    width: 17px;
+    height: 17px;
+  }
+
+  .Logout-button {
+    right: -1rem;
+  }
+
+  .Logout-button {
+    padding: 0.8em 0em;
+    font-size: 12px;
+    text-transform: uppercase;
+    height: 2.4rem;
+    width: 76px;
+  }
+
+  .toggle-switch {
+    left: 1.8rem;
+  }
+
+  .Notification-bar h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .toggle-switch input[type="checkbox"]:checked+.toggle-switch-background .toggle-switch-handle {
+    transform: translateX(18px);
+  }
+
+  .Text-information {
+    width: 8rem;
+    padding: 0 20px;
+  }
+
+  .Text-information h1 {
+    font-size: 18px;
+  }
+
+  .Notification-end h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .noti-text h1 {
+    font-size: 18px;
+  }
+}

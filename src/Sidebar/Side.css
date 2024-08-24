@@ -1,0 +1,151 @@
+.Side-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.Top-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Top-sidebar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.Top-sidebar h1 {
+  color: #fff;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+li:hover {
+  background-color: #444;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* ................................................ */
+.Sibar-main{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+}
+.Sidebar{
+  background: rgb(255, 255, 255);
+  height: 100vh;
+  color: black;
+}
+.toggle-button{
+  position: absolute;
+  left: 12rem;
+  z-index: 9999;
+  top: 0.5rem;
+  transition: 0.3s;
+  width: 36px;
+  height: 36px;
+  box-sizing: border-box;
+ font-size: 20px;
+  border-radius: 4px;
+  background-color: #96f2d7;
+  color:white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+}
+
+.Lower-side{
+  height: auto;
+}
+.Menu-list{
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: black;
+}
+.Menu-list .icons{
+  font-size: 25px;
+}
+.Menu-list .link-text{
+  font-size: 20px;
+}
+.Menu-list:hover{
+  background-color: #0ca678;
+  color: white;
+}
+.sub-menu {
+  background-color: #63e6be;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  top: -9.9px;
+}
+.sub-list{
+  display: flex;
+  gap: 25px;
+}
+.sub-list {
+  padding: 10px 3px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+.sub-list .link-text{
+  font-size: 18px;
+}
+.sub-list .icons{
+  font-size: 20px;
+}
+
+.sub-list:hover {
+  background-color: #0ca678;
+  color: white;
+}
+.Upper-side{
+  height: 180px;
+ 
+  padding: 25px 0px;
+}
+.Upper-side img{
+  width: 75px;
+  height: 75px;
+  position: relative;
+  left: 3.5rem;
+
+}
+.Upper-side h1{
+  white-space: nowrap;
+  padding: 5px 26px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
